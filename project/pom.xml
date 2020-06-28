@@ -47,5 +47,17 @@
             </build>
         </profile>
     </profiles>
+    
+    <distributionManagement>
+  	<snapshotRepository>
+    		<id>devops-snapshot</id>
+    		<url>http://35.246.81.152:8081/nexus/content/repositories/devops-snapshot</url>
+  	</snapshotRepository>
+	  	<repository>
+    			<id>devops-release</id>
+    			<url>http://35.246.81.152:8081/nexus/content/repositories/devops-release</url>
+  		</repository>	
+
+</distributionManagement>
 
 </project>
