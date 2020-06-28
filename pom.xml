@@ -47,7 +47,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <configuration>
                     <archive>
-                        <addMavenDescriptor>false</addMavenDescriptor>
+                        <addMavenDescriptor>true</addMavenDescriptor>
                     </archive>
                 </configuration>
             </plugin>
