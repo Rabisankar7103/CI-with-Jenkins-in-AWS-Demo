@@ -2,7 +2,7 @@ pipeline {
         agent any
         environment {
             registry = "muthubdevops/sprint6gcloudjenkins"
-            registryCredential = 'dockerhubcredentials'
+            registryCredential = 'dockerhub'
             dockerImage = ''
 		PROJECT_ID = 'devops-335589'
  		CLUSTER_NAME = 'sprint6-kubectl-gcloud-cluster'
