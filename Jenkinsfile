@@ -1,7 +1,7 @@
 pipeline {
         agent any
         environment {
-            registry = "rabi7103"
+            registry = "rabi7103/sprint6gcloudjenkins"
             registryCredential = 'dockerhub'
             dockerImage = ''
 		PROJECT_ID = 'warm-skill-278521'
